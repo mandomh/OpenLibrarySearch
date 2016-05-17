@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		807619CF1CCE1F3B0005D46A /* BookFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807619CF1CCE1F3B0005D46A /* OpenLibrarySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLibrarySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807619D21CCE1F3B0005D46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807619D41CCE1F3B0005D46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		807619D71CCE1F3B0005D46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		807619C61CCE1F3B0005D46A = {
 			isa = PBXGroup;
 			children = (
-				807619D11CCE1F3B0005D46A /* BookFinder */,
+				807619D11CCE1F3B0005D46A /* OpenLibrarySearch */,
 				807619D01CCE1F3B0005D46A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		807619D01CCE1F3B0005D46A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				807619CF1CCE1F3B0005D46A /* BookFinder.app */,
+				807619CF1CCE1F3B0005D46A /* OpenLibrarySearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		807619D11CCE1F3B0005D46A /* BookFinder */ = {
+		807619D11CCE1F3B0005D46A /* OpenLibrarySearch */ = {
 			isa = PBXGroup;
 			children = (
 				807619D21CCE1F3B0005D46A /* AppDelegate.swift */,
@@ -64,15 +64,16 @@
 				807619DB1CCE1F3B0005D46A /* LaunchScreen.storyboard */,
 				807619DE1CCE1F3B0005D46A /* Info.plist */,
 			);
-			path = BookFinder;
+			name = OpenLibrarySearch;
+			path = OpenLibrarySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		807619CE1CCE1F3B0005D46A /* BookFinder */ = {
+		807619CE1CCE1F3B0005D46A /* OpenLibrarySearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 807619E11CCE1F3B0005D46A /* Build configuration list for PBXNativeTarget "BookFinder" */;
+			buildConfigurationList = 807619E11CCE1F3B0005D46A /* Build configuration list for PBXNativeTarget "OpenLibrarySearch" */;
 			buildPhases = (
 				807619CB1CCE1F3B0005D46A /* Sources */,
 				807619CC1CCE1F3B0005D46A /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = BookFinder;
-			productName = BookFinder;
-			productReference = 807619CF1CCE1F3B0005D46A /* BookFinder.app */;
+			name = OpenLibrarySearch;
+			productName = OpenLibrarySearch;
+			productReference = 807619CF1CCE1F3B0005D46A /* OpenLibrarySearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 807619CA1CCE1F3B0005D46A /* Build configuration list for PBXProject "BookFinder" */;
+			buildConfigurationList = 807619CA1CCE1F3B0005D46A /* Build configuration list for PBXProject "OpenLibrarySearch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				807619CE1CCE1F3B0005D46A /* BookFinder */,
+				807619CE1CCE1F3B0005D46A /* OpenLibrarySearch */,
 			);
 		};
 /* End PBXProject section */
@@ -256,9 +257,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BookFinder/Info.plist;
+				INFOPLIST_FILE = OpenLibrarySearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.com.amh.BookFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.amh.OpenLibrarySearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,9 +268,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BookFinder/Info.plist;
+				INFOPLIST_FILE = OpenLibrarySearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.com.amh.BookFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.amh.OpenLibrarySearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -277,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		807619CA1CCE1F3B0005D46A /* Build configuration list for PBXProject "BookFinder" */ = {
+		807619CA1CCE1F3B0005D46A /* Build configuration list for PBXProject "OpenLibrarySearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				807619DF1CCE1F3B0005D46A /* Debug */,
@@ -286,13 +287,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		807619E11CCE1F3B0005D46A /* Build configuration list for PBXNativeTarget "BookFinder" */ = {
+		807619E11CCE1F3B0005D46A /* Build configuration list for PBXNativeTarget "OpenLibrarySearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				807619E21CCE1F3B0005D46A /* Debug */,
 				807619E31CCE1F3B0005D46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
